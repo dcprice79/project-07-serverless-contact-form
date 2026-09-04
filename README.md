@@ -3,7 +3,8 @@
 ## Overview
 Built a fully serverless contact form that sends real emails — no servers, no EC2 instances, no infrastructure to manage. When a visitor submits the form on my portfolio website the request flows through API Gateway to a Python Lambda function which calls Amazon SES to deliver the email to my inbox. The entire backend runs on-demand and costs nothing at portfolio scale.
 
-**Live contact form:** https://d14isz3drmtkcb.cloudfront.net/contact.html
+**Live contact form:** https://d10kxon076mkn.cloudfront.net
+
 
 ## AWS Services Used
 - **AWS Lambda** — Python 3.12 serverless function handling form submissions and calling SES
